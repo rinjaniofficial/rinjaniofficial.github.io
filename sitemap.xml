@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://rinjaniofficial.com/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <!-- Core pages -->
+    <url>
+        <loc>https://rinjaniofficial.com/about/about.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/price/price.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/packages/list-pakages-en.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Trekking package pages (English) -->
+    <url>
+        <loc>https://rinjaniofficial.com/packages/2D1N-Sembalun-Rim-Summit-en.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/packages/3D2N-Sembalun-Torean-en.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru-en.html</loc>
+        <xhtml:link rel="alternate" hreflang="id" href="https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru-en.html"/>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/packages/3D2N-Senaru-Sembalun-en.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/packages/2D1N-Crater-Rim-Senaru-en.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/packages/4D3N-Summit-Lake-en.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Trekking package page (Indonesian) -->
+    <url>
+        <loc>https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru.html</loc>
+        <xhtml:link rel="alternate" hreflang="id" href="https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru-en.html"/>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+</urlset>
