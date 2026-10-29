@@ -82,27 +82,53 @@
 </head>
 <body class="bg-slate-50 text-slate-800">
 
+    <body class="bg-slate-50 text-slate-800">
+
     <!-- HEADER / NAVBAR -->
-    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100">
+    <header class="fixed w-full top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100" id="navbar">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
+                
+                <!-- LOGO & BRANDING -->
                 <div class="flex items-center gap-2">
-                    <img src="../images/logo.png" alt="Rinjani Official Logo" width="40" height="40" class="w-10 h-10 rounded-xl object-contain">
-                    <a href="../index.html" class="font-bold text-2xl tracking-tight text-slate-900">
-                        RINJANI<span class="text-accent">OFFICIAL</span>
+                    <a href="../index.html" class="flex items-center gap-2">
+                        <img src="../images/logo.png" alt="Rinjani Official Logo" width="40" height="40" class="w-10 h-10 rounded-xl object-contain">
+                        <span class="font-extrabold text-2xl tracking-tight text-slate-900">
+                            RINJANI <span class="text-[#e08200]">OFFICIAL</span>
+                        </span>
                     </a>
                 </div>
+
+                <!-- DESKTOP NAVIGATION MENU -->
                 <nav class="hidden md:flex space-x-8">
                     <a href="../index.html" class="text-slate-600 hover:text-primary font-medium">Home</a>
                     <a href="list-pakages-en.html" class="text-primary font-semibold">Trekking Packages</a>
                     <a href="../index.html#faq" class="text-slate-600 hover:text-primary font-medium">FAQ</a>
                 </nav>
-                <div>
-                    <a href="list-pakages-en.html" class="text-slate-600 hover:text-primary font-semibold text-sm flex items-center gap-2">
-                        <i class="fa-solid fa-arrow-left"></i> Back to Packages
+
+                <!-- RIGHT ACTION & MOBILE TOGGLE -->
+                <div class="flex items-center gap-3">
+                    <!-- Back to Packages Button -->
+                    <a href="list-pakages-en.html" class="text-slate-600 hover:text-primary font-semibold text-xs sm:text-sm flex items-center gap-2 bg-slate-100 hover:bg-slate-200 px-3 py-2 rounded-xl transition-colors">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <span class="hidden xs:inline">Back to Packages</span>
+                        <span class="xs:hidden">Packages</span>
                     </a>
+
+                    <!-- Mobile Menu Button (Garis 3 / Silang Toggle) -->
+                    <button id="menuBtn" class="md:hidden text-slate-700 hover:text-slate-900 p-2 focus:outline-none" aria-label="Open Menu">
+                        <i id="menuIcon" class="fa-solid fa-bars text-2xl"></i>
+                    </button>
                 </div>
+
             </div>
+        </div>
+
+        <!-- MOBILE DROPDOWN MENU -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-b border-slate-100 px-4 pt-2 pb-6 space-y-3">
+            <a href="../index.html" class="block px-3 py-2 rounded-lg text-slate-700 font-medium hover:bg-slate-50">Home</a>
+            <a href="list-pakages-en.html" class="block px-3 py-2 rounded-lg text-primary font-semibold bg-slate-50">Trekking Packages</a>
+            <a href="../index.html#faq" class="block px-3 py-2 rounded-lg text-slate-700 font-medium hover:bg-slate-50">FAQ</a>
         </div>
     </header>
 
