@@ -2,43 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-    <!-- Homepage -->
+    <!-- Core pages -->
     <url>
         <loc>https://rinjaniofficial.com/</loc>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
-
-    <!-- Core pages -->
     <url>
-        <loc>https://rinjaniofficial.com/about/about.html</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.6</priority>
+        <loc>https://rinjaniofficial.com/packages/list-pakages-en.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>https://rinjaniofficial.com/price/price.html</loc>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://rinjaniofficial.com/packages/list-pakages-en.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
+        <loc>https://rinjaniofficial.com/rinjani-map/rinjani-map.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/about/about.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
     </url>
 
-    <!-- Trekking package pages (English) -->
+    <!-- Trekking packages (English) -->
     <url>
         <loc>https://rinjaniofficial.com/packages/2D1N-Sembalun-Rim-Summit-en.html</loc>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://rinjaniofficial.com/packages/3D2N-Sembalun-Torean-en.html</loc>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru-en.html</loc>
+        <lastmod>2026-10-31</lastmod>
         <xhtml:link rel="alternate" hreflang="id" href="https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru-en.html"/>
         <changefreq>weekly</changefreq>
@@ -46,26 +57,80 @@
     </url>
     <url>
         <loc>https://rinjaniofficial.com/packages/3D2N-Senaru-Sembalun-en.html</loc>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://rinjaniofficial.com/packages/2D1N-Crater-Rim-Senaru-en.html</loc>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
         <loc>https://rinjaniofficial.com/packages/4D3N-Summit-Lake-en.html</loc>
+        <lastmod>2026-10-31</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
-    <!-- Trekking package page (Indonesian) -->
+    <!-- Trekking package (Indonesian) -->
     <url>
         <loc>https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru.html</loc>
+        <lastmod>2026-10-31</lastmod>
         <xhtml:link rel="alternate" hreflang="id" href="https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru.html"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://rinjaniofficial.com/packages/3D2N-Sembalun-Senaru-en.html"/>
         <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Blog -->
+    <url>
+        <loc>https://rinjaniofficial.com/blog/index.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/blog/mount-rinjani-trekking-guide.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/blog/best-time-to-climb-mount-rinjani.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/blog/sembalun-vs-senaru-route.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/blog/mount-rinjani-packing-list.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/blog/how-hard-is-mount-rinjani.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/blog/mount-rinjani-trekking-cost.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://rinjaniofficial.com/blog/rinjani-trekking-safety-travel-insurance.html</loc>
+        <lastmod>2026-10-31</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
