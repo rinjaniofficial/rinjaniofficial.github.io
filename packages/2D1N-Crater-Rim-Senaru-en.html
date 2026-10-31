@@ -25,24 +25,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: { sans: ['Inter', 'sans-serif'] },
-                    colors: {
-                        primary: '#047857', 'primary-dark': '#065f46',
-                        accent: '#d97706', 'accent-dark': '#b45309'
-                    },
-                    boxShadow: {
-                        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
-                        'float': '0 10px 30px -5px rgba(0, 0, 0, 0.1)'
-                    }
-                }
-            }
-        }
-    </script>
     <link rel="stylesheet" href="../css/style.css">
 
     <script type="application/ld+json">
@@ -63,7 +45,7 @@
         "@type": "TravelAgency",
         "name": "Rinjani Official",
         "telephone": "+62-823-2305-0467",
-        "email": "joutrekking@gmail.com",
+        "email": "rinjaniofficial999@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Jl. Pariwisata, Desa Senaru, Kec. Bayan",
@@ -74,6 +56,7 @@
       }
     }
     </script>
+    <link rel="stylesheet" href="../css/tailwind.css">
 </head>
 <body class="bg-slate-50 text-slate-800">
 
@@ -89,6 +72,8 @@
                 <nav class="hidden md:flex space-x-8">
                     <a href="../index.html" class="text-slate-600 hover:text-primary font-medium">Home</a>
                     <a href="list-pakages-en.html" class="text-primary font-semibold">Trekking Packages</a>
+                    <a href="../blog/index.html" class="text-slate-600 hover:text-primary font-medium">Blog</a>
+                    <a href="../about/about.html" class="text-slate-600 hover:text-primary font-medium">About</a>
                     <a href="../index.html#faq" class="text-slate-600 hover:text-primary font-medium">FAQ</a>
                 </nav>
                 <div>
@@ -107,7 +92,7 @@
         <div class="max-w-4xl mx-auto px-4 text-center relative z-10">
             <div class="flex flex-wrap items-center justify-center gap-2 mb-4">
                 <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent text-white text-xs font-bold uppercase tracking-widest shadow">
-                    <i class="fa-solid fa-users"></i>  Group Open Trip (Max. 8 Pax)
+                    <i class="fa-solid fa-users"></i> Sharing Group Open Trip (Max. 8 Pax)
                 </div>
                 <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500 text-white text-xs font-bold uppercase tracking-widest shadow">
                     <i class="fa-solid fa-tag"></i> From USD 119/pax
@@ -141,7 +126,7 @@
             <div class="bg-white p-4 rounded-2xl border border-slate-200 text-center shadow-sm">
                 <i class="fa-solid fa-users text-primary text-xl mb-1"></i>
                 <p class="text-xs text-slate-400 font-medium uppercase">Trip Type</p>
-                <p class="text-sm font-bold text-slate-800">Small Group (Max. 4)</p>
+                <p class="text-sm font-bold text-slate-800">Sharing Group (Max. 8)</p>
             </div>
             <div class="bg-white p-4 rounded-2xl border border-slate-200 text-center shadow-sm">
                 <i class="fa-solid fa-triangle-exclamation text-accent text-xl mb-1"></i>
@@ -174,7 +159,7 @@
                 </div>
             </div>
             <p class="text-sm text-slate-600 leading-relaxed">
-                With <strong>Rinjani Official</strong>, you'll join our <strong> Group</strong> concept, limited to a maximum of 8 pax. This shorter package takes you through Senaru's cool rainforest up to the crater rim for unforgettable lake and sunset views, without the physical demands of a summit push — a great option if you're short on time or prefer a gentler trek.
+                With <strong>Rinjani Official</strong>, you'll join our <strong>Small Group</strong> concept, limited to a maximum of 4 people. This shorter package takes you through Senaru's cool rainforest up to the crater rim for unforgettable lake and sunset views, without the physical demands of a summit push — a great option if you're short on time or prefer a gentler trek.
             </p>
         </div>
 
@@ -185,7 +170,7 @@
             <ul class="grid md:grid-cols-2 gap-4 text-sm text-slate-600">
                 <li class="flex items-start gap-3 bg-slate-50 p-3 rounded-xl border border-slate-100">
                     <i class="fa-solid fa-circle-check text-primary mt-1"></i>
-                    <div><strong>Small & Exclusive Group:</strong> Maximum 4 participants for a safer, more personal trip.</div>
+                    <div><strong>Small Sharing Group:</strong> Maximum 8 participants per group for a safer, more personal trip.</div>
                 </li><li class="flex items-start gap-3 bg-slate-50 p-3 rounded-xl border border-slate-100">
                     <i class="fa-solid fa-circle-check text-primary mt-1"></i>
                     <div><strong>No Summit Push Required:</strong> Enjoy Rinjani's scenery without the demanding 2am summit attempt.</div>
@@ -348,7 +333,7 @@
                     <i class="fa-solid fa-circle-check text-emerald-500"></i> What's Included
                 </h3>
                 <ul class="space-y-2 text-xs text-slate-600 mb-6">
-                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Official Mount Rinjani National Park (TNGR) entrance ticket</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Licensed guide & experienced porter team</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Small Group concept, maximum 4 people</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Meals & drinking water throughout the trek</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Camping gear: dome tent, sleeping bag, thick sleeping mat, air pillow, & portable toilet tent</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Post-trek drop-off to the Bangsal, Senggigi, or Mataram area</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Official Mount Rinjani National Park (TNGR) entrance ticket</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Experienced local guide & porter team</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Small Group concept, maximum 4 people</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Meals & drinking water throughout the trek</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Camping gear: dome tent, sleeping bag, thick sleeping mat, air pillow, & portable toilet tent</li><li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-500"></i> Post-trek drop-off to the Bangsal, Senggigi, or Mataram area</li>
                 </ul>
             </div>
             <div class="bg-white p-6 md:p-8 rounded-3xl border border-slate-200 shadow-sm">
@@ -438,8 +423,8 @@
     <footer class="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-xs text-slate-500 space-y-2">
             <p><strong>Rinjani Official</strong> — Jl. Pariwisata, Desa Senaru, Kec. Bayan, North Lombok Regency, NTB 83354, Indonesia</p>
-            <p>Email: joutrekking@gmail.com | Contact: +62 823-2305-0467</p>
-            <p class="pt-4">&copy; 2026 Rinjani Official. All Rights Reserved.</p>
+            <p>Email: rinjaniofficial999@gmail.com | Contact: +62 823-2305-0467</p>
+            <p class="pt-4">&copy; 2026 Rinjani Official. All Rights Reserved. &nbsp;|&nbsp; <a href="../legal/privacy-policy.html" class="hover:text-white">Privacy Policy</a> &nbsp;|&nbsp; <a href="../legal/terms-and-conditions.html" class="hover:text-white">Terms &amp; Conditions</a></p>
         </div>
     </footer>
 
