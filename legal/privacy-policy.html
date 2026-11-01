@@ -80,6 +80,33 @@
   ]
 }
     </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18543864132"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18543864132');
+  /* WhatsApp click = conversion. Paste the conversion label (the part after "AW-18543864132/") between the quotes below. */
+  (function () {
+    var LABEL = '';
+    var busy = false;
+    function track() {
+      if (!LABEL || busy) return;
+      busy = true; setTimeout(function () { busy = false; }, 1000);
+      gtag('event', 'conversion', { send_to: 'AW-18543864132/' + LABEL, value: 16, currency: 'USD' });
+    }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href*="wa.me"]');
+      if (a) track();
+    }, true);
+    var _open = window.open;
+    window.open = function (u) {
+      if (typeof u === 'string' && u.indexOf('wa.me') > -1) track();
+      return _open.apply(window, arguments);
+    };
+  })();
+</script>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
 
@@ -163,6 +190,7 @@
 
 <h2 id="cookies">6. Cookies, analytics and advertising</h2>
 <p>Our website may use cookies and similar technologies, including those from Google, to remember preferences, understand how the site is used and measure and improve advertising such as Google Ads. Google may use cookies to show ads based on your previous visits to this or other websites. You can control or delete cookies in your browser settings and manage Google ad personalisation at <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.</p>
+<p>We use Google Ads conversion tracking. When you click a WhatsApp button on our site, Google records that click as a conversion so we can see which ads lead to enquiries. This does not include the content of your WhatsApp messages.</p>
 <p>The site also loads fonts and icons from third-party services (Google Fonts and Font Awesome), which may receive your IP address when your browser requests them.</p>
 
 <h2 id="retention">7. How long we keep it</h2>

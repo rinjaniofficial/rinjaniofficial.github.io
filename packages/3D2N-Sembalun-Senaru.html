@@ -18,6 +18,33 @@
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/tailwind.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18543864132"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18543864132');
+  /* WhatsApp click = conversion. Paste the conversion label (the part after "AW-18543864132/") between the quotes below. */
+  (function () {
+    var LABEL = '';
+    var busy = false;
+    function track() {
+      if (!LABEL || busy) return;
+      busy = true; setTimeout(function () { busy = false; }, 1000);
+      gtag('event', 'conversion', { send_to: 'AW-18543864132/' + LABEL, value: 16, currency: 'USD' });
+    }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href*="wa.me"]');
+      if (a) track();
+    }, true);
+    var _open = window.open;
+    window.open = function (u) {
+      if (typeof u === 'string' && u.indexOf('wa.me') > -1) track();
+      return _open.apply(window, arguments);
+    };
+  })();
+</script>
 </head>
 <body class="bg-slate-50 text-slate-800">
 
